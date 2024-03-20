@@ -1,0 +1,586 @@
+/* =======================1024px start====================== */
+@media only screen and (max-width: 1024px) {
+    .about .row .item_box .inner_box .middle {
+        padding: 0 5px;
+    }
+    .about_us .wraper .right_inner {
+        padding-left: 40px;
+    }
+    .our_app .wraper .left_inner {
+        padding: 30px;
+    }
+    .opening_time .wraper .right_inner .item_box .time_head h2 {
+        font-size: 32px;
+    }
+    .footer .wraper .foot_inner:nth-child(3) {
+        padding-right: 30px;
+    }
+/* =======================1024px end====================== */
+}
+
+/* ========================991px start====================== */
+@media only screen and (max-width: 991px) {
+    .titel h2 {
+        font-size: 32px !important;
+        line-height: 1.2 !important;
+        margin-top: 10px !important;
+    }
+    label {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 4px;
+        cursor: pointer;
+    }
+    .header .nav_main .menu_bar {
+        display: none;
+        position: fixed;
+        flex-direction: column;
+        row-gap: 10px;
+        text-align: center;
+        top: 80px;
+        right: -100%;
+        width: 80%;
+        height: 100%;
+        background: #e94343;
+        padding: 40px 0;
+        transition: all 0.6s ease-in-out;
+    }
+    .header .nav_main .menu_bar li {
+        width: 100%;
+        padding-left: 0;
+    }
+    .header .nav_main .menu_bar li a {
+        padding: 10px 80px;
+    }
+    .header .nav_main .menu_bar li a:hover {
+        background: #e56363;
+        color: #fff;
+    }
+    .header .nav_main .menu_bar li:nth-child(7) {
+        display: none;
+    }
+    .header .nav_main .menu_bar li:last-child a img {
+        margin: 0 auto;
+    }
+    .header .nav_main .menu_bar li:last-child a p {
+        display: none;
+    }
+    #check:checked ~ .menu_bar {
+        display: flex;
+        right: 0;
+    }
+    #check:checked ~ label {
+        row-gap: 0;
+    }
+    #check:checked ~ label .line {
+        transition: all 0.3s ease-in-out;
+    }
+    #check:checked ~ label .line:nth-child(2) {
+        display: none;
+    }
+    #check:checked ~ label .line:first-child {
+        transform: rotate(-45deg) translate(-1px, 1px);
+    }
+    #check:checked ~ label .line:last-child {
+        transform: rotate(45deg) translate(-2px, -1px);
+    }
+
+    .banner {
+        padding-top: 100px;
+    }
+    .banner .banner_content .left h1 {
+        font-size: 42px;
+        line-height: 1.2;
+        margin-top: 15px;
+    }
+    .banner .banner_content .left .video_btn .btn_2 a {
+        width: 50px;
+        height: 50px;
+    }
+    .banner .banner_content .left p {
+        line-height: 1.4;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    .about {
+        padding: 45px 0;
+    }
+    .about .row {
+        row-gap: 24px;
+    }
+    .about .row .item_box {
+        width: 50%;
+    }
+    .offers {
+        padding: 60px 0;
+    }
+    .offers .wraper .right .form input {
+        font-size: 15px;
+    }
+    .offers .wraper .right .form .sub_btn {
+        width: 100px;
+    }
+    .about_us {
+        margin: 45px 0;
+    }
+    .about_us .wraper .left_inner, .about_us .wraper .right_inner {
+        width: 100%;
+    }
+    .about_us .wraper .left_inner img {
+        height: 360px;
+        object-fit: cover;
+        object-position: top;
+    }
+    .about_us .wraper .right_inner .titel {
+        text-align: center;
+    }
+    .about_us .wraper .right_inner .titel p {
+        line-height: 1.4;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .about_us .wraper .right_inner .detl_box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 -12px;
+    }
+    .about_us .wraper .right_inner .detl_box .wrap_box {
+        width: 50%;
+        padding: 0 12px;
+        margin-bottom: 30px;
+    }
+    .about_us .wraper .right_inner .detl_box .wrap_box .text {
+        padding-left: 10px;
+    }
+    .specail_menu {
+        padding: 45px 0;
+    }
+    .specail_menu .titel {
+        margin-bottom: 30px;
+    }
+    .tab button {
+        padding: 0 16px;
+    }
+    .tab button .tab_icon {
+        width: 55px;
+        height: 55px;
+    }
+    .tab button span {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+    .content_box .wraper_box .inner_box {
+        width: 50%;
+    }
+    .our_app {
+        margin-top: 45px;
+    }
+    .our_app .wraper .left_inner {
+        padding: 20px;
+    }
+    .our_app .wraper .left_inner .tilel h2 {
+        font-size: 32px;
+        line-height: 1.2;
+        margin-bottom: 15px;
+    }
+    .our_app .wraper .left_inner .tilel p {
+        font-size: 15px;
+        line-height: 1.4;
+        max-width: 100%;
+    }
+    .our_app .wraper .left_inner .download_btn {
+        margin-top: 25px;
+    }
+    .our_app .wraper .left_inner .download_btn a {
+        max-width: 120px;
+    }
+    .opening_time {
+        margin-top: 60px;
+    }
+    .opening_time .wraper .left_inner {
+        width: 60%;
+    }
+    .opening_time .wraper .right_inner {
+        width: 40%;
+    }
+    .opening_time .wraper .right_inner .item_box .time_head h2 {
+        font-size: 26px;
+        line-height: 1.2;
+        margin: 5px 0 10px 0;
+    }
+    .opening_time .wraper .right_inner .item_box .call_us h5 {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+    .opening_time .wraper .right_inner .item_box .call_us {
+        padding-top: 15px;
+    }
+    .opening_time .wraper .right_inner .item_box .call_us a {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    .our_team {
+        padding-top: 50px;
+    }
+    .our_team .titel {
+        margin-bottom: 30px;
+    }
+    .website_logo {
+        padding: 45px 0;
+        margin-top: 50px;
+    }
+    .happy_customer {
+        margin-top: 45px;
+    }
+    .happy_customer .titel {
+        margin-bottom: 0;
+    }
+    .happy_customer .guestbook .wraper .left_inner .item_iner {
+        padding: 20px;
+    }
+    .happy_customer .guestbook .wraper .left_inner .icon img {
+        width: 60px;
+        height: 55px;
+    }
+    .happy_customer .guestbook .wraper .left_inner .sub_titel h2 {
+        font-size: 30px;
+        line-height: 1.2;
+        margin-bottom: 15px;
+    }
+    .happy_customer .guestbook .wraper .left_inner .sub_titel p {
+        font-size: 15px;
+        line-height: 1.4;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .happy_customer .guestbook .wraper .left_inner .sub_titel h4 {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    .guestbook .slick-dots {
+        bottom: 50px;
+        left: 22px;
+    }
+    .happy_customer .guestbook .wraper .right_inner img {
+        max-height: 312px;
+    }
+    .our_blog {
+        padding: 45px 0;
+        margin-top: 45px;
+    }
+    .our_blog .titel {
+        margin-bottom: 30px;
+    }
+    .our_blog .wraper {
+        justify-content: center;
+        row-gap: 30px;
+    }
+    .our_blog .wraper .inner_box {
+        width: 50%;
+    }
+
+    .footer {
+        padding: 45px 0;
+    }
+    .footer .wraper {
+        row-gap: 30px;
+    }
+    .footer .wraper .foot_inner {
+        text-align: center;
+    }
+    .footer .wraper .foot_inner .foot_logo {
+        margin: 0 auto;
+    }
+    .footer .wraper .foot_inner .contact_detl .wrap_box {
+        justify-content: center;
+    }
+    .footer .wraper .foot_inner .foot_text {
+        padding: 0 20px;
+    }
+    .footer .wraper .foot_inner .social_link {
+        justify-content: center;
+    }
+    .footer .wraper .foot_inner:first-child {
+        order: 1;
+        width: 50%;
+    }
+    .footer .wraper .foot_inner:nth-child(2) {
+        padding-left: 40px;
+        order: 3;
+        width: 50%;
+    }
+    .footer .wraper .foot_inner:nth-child(3) {
+        order: 4;
+        width: 50%;
+    }
+    .footer .wraper .foot_inner:last-child {
+        order: 2;
+        width: 50%;
+    }
+/* ========================991px end====================== */
+}
+
+/* ======================767px start====================== */
+@media only screen and (max-width: 767px) {
+    .titel h5 {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    .titel h2 {
+        font-size: 26px !important;
+    }
+    .banner .banner_content {
+        row-gap: 35px;
+    }
+    .banner .banner_content .left {
+        width: 100%;
+        text-align: center;
+    }
+    .banner .banner_content .left .video_btn {
+        justify-content: center;
+    }
+    .banner .banner_content .right {
+        width: 100%;
+        padding-left: 0;
+    }
+    .banner .banner_content .right img {
+        height: 350px;
+        object-fit: contain;
+    }
+    .offers .wraper {
+        row-gap: 25px;
+        margin: 0 -15px;
+    }
+    .offers .wraper .left, .offers .wraper .right {
+        text-align: center;
+        width: 100%;
+        padding: 0 15px;
+    }
+    .about_us .wraper {
+        row-gap: 30px;
+    }
+    .about_us .wraper .right_inner {
+        padding-left: 15px;
+    }
+    .about_us .wraper .left_inner img {
+        height: 300px;
+    }
+    .about_us .wraper .right_inner .detl_box .wrap_box {
+        flex-direction: column;
+        row-gap: 15px;
+        text-align: center;
+    }
+    .about_us .wraper .right_inner .detl_box .wrap_box .icon {
+        max-width: 50px;
+        margin: 0 auto;
+    }
+    .about_us .wraper .right_inner .detl_box .wrap_box .icon .icon_img img {
+        margin: 0 auto;
+    }
+    .about_us .wraper .right_inner .detl_box .wrap_box .text h5 {
+        margin-bottom: 5px;
+    }
+    .about_us .wraper .right_inner .detl_box .wrap_box .text p {
+        line-height: 1.4;
+    }
+    .tab {
+        margin: 0 -16px;
+        margin-bottom: 30px;
+    }
+    .tab button .tab_icon {
+        width: 50px;
+        height: 50px;
+    }
+    .content_box .wraper_box .inner_box .food_detail .delv_price_cart .addto_cart, 
+    .content_box .wraper_box .inner_box .food_detail .delv_price_cart .wishlist {
+        font-size: 14px;
+    }
+    .content_box .wraper_box .inner_box .food_detail {
+        padding: 25px 15px;
+    }
+    .our_app .app_bgimg {
+        padding: 40px 0;
+    }
+    .our_app .wraper {
+        row-gap: 30px;
+    }
+    .our_app .wraper .left_inner {
+        width: 100%;
+        padding: 0 15px;
+        text-align: center;
+    }
+    .our_app .wraper .right_inner {
+        width: 65%;
+        margin: 0 auto;
+    }
+    .our_app .wraper .left_inner .download_btn {
+        justify-content: center;
+    }
+    .our_app .wraper .right_inner .phone_img .image_1, .our_app .wraper .right_inner .phone_img .image_2 {
+        margin: 0;
+    }
+    .opening_time .wraper {
+        row-gap: 30px;
+    }
+    .opening_time .wraper .left_inner {
+        width: 100%;
+    }
+    .opening_time .wraper .right_inner {
+        width: 100%;
+    }
+    .opening_time .wraper .left_inner .titel {
+        text-align: center;
+    }
+    .opening_time .wraper .left_inner .titel .video_btn a {
+        display: inline-block;
+    }
+    .opening_time .wraper .right_inner .item_box {
+        position: relative;
+    }
+    .opening_time .wraper .left_inner .titel p {
+        max-width: 100%;
+    }
+    .opening_time .wraper .left_inner .titel h2 {
+        padding-top: 15px;
+        margin-bottom: 10px;
+    }
+    .our_team {
+        padding-top: 50px;
+        margin: 0;
+    }
+    .our_team .wraper {
+        justify-content: center;
+        row-gap: 25px;
+    }
+    .our_team .wraper .inner_box {
+        width: 50%;
+    }
+    .happy_customer .guestbook .wraper {
+        flex-direction: column-reverse;
+        row-gap: 25px;
+        margin: 0 -12px;
+        padding: 0;
+    }
+    .happy_customer .guestbook .wraper .right_inner img {
+        object-position: center;
+    }
+    .happy_customer .guestbook .wraper .left_inner, .happy_customer .guestbook .wraper .right_inner{
+        width: 100%;
+        padding: 0 12px;
+    }
+    .our_blog {
+        margin-top: 25px;
+    }
+    .our_blog .wraper .inner_box .blog_detl {
+        padding: 20px 15px;
+    }
+    .our_blog .wraper .inner_box .blog_detl .prod_head {
+        font-size: 17px;
+        line-height: 1.2;
+    }
+    .our_blog .wraper .inner_box .blog_detl .date_btn {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+/* ======================767px start====================== */
+}
+
+/* =====================575px start======================= */
+@media only screen and (max-width: 575px) {
+
+/* =====================575px end======================= */ 
+}
+
+/* =====================480px start======================= */
+@media only screen and (max-width: 480px) {
+    .banner .banner_content .left {
+        padding-right: 0;
+    }
+    .banner .banner_content .left h1 {
+        font-size: 32px;
+        line-height: 1.2;
+        margin-top: 15px;
+    }
+    .banner .banner_content .left .video_btn {
+        flex-direction: column-reverse;
+        row-gap: 30px;
+    }
+    .banner .banner_content .left .video_btn .btn_2 {
+        padding-left: 0;
+    }
+    .banner .banner_content .right img {
+        height: 300px;
+    }
+    .banner .banner_slide .slick-list {
+        padding-bottom: 0;
+    }
+    .banner_slide .slick-dots li, .banner_slide .slick-dots li button {
+        width: 40px;
+        height: 3px;
+    }
+    .about .row .item_box {
+        width: 100%;
+    }
+    
+    .offers .wraper .left h3 {
+        font-size: 25px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
+    .offers .wraper .right .form .sub_btn {
+        position: relative;
+        transform: translate(0);
+        width: 100%;
+        margin-top: 15px;
+    }
+    .about_us .wraper .right_inner .detl_box .wrap_box {
+        width: 100%;
+    }
+    .about_us .wraper .right_inner .detl_box .wrap_box .text {
+        max-width: 100%;
+        padding-left: 0;
+    }
+    .specail_menu {
+        overflow: hidden;
+    }
+    .tab {
+        row-gap: 10px;
+    }
+    .tab button {
+        padding: 0 10px;
+    }
+    .content_box .wraper_box .inner_box {
+        width: 100%;
+    }
+    .our_app .wraper .left_inner .tilel h2 {
+        font-size: 26px;
+    }
+    .our_team .wraper .inner_box {
+        width: 100%;
+    }
+    .website_logo {
+        overflow: hidden;
+    }
+    .our_blog .wraper .inner_box {
+        width: 100%;
+    }
+    .footer .wraper .foot_inner {
+        width: 100% !important;
+    }
+    .footer .wraper .foot_inner:nth-child(2) {
+        padding-left: 12px;
+    }
+    .footer .wraper .foot_inner h4 {
+        margin-bottom: 20px;
+    }
+    .footer .wraper .foot_inner h4::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .footer .wraper .foot_inner:nth-child(3) {
+        padding-right: 12px;
+    }
+/* =====================480px end======================= */ 
+}
